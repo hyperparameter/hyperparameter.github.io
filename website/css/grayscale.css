@@ -48,7 +48,8 @@ p {
 }
 
 a {
-    color: #219ab3;
+    /* color: #219ab3; */
+    color: #55f;    
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -97,7 +98,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #55f;
 }
 
 .navbar-custom .nav li.active {
@@ -265,7 +266,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .download-section {
