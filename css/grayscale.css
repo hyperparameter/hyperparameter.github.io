@@ -48,8 +48,8 @@ p {
 }
 
 a {
-    /* color: #219ab3; */
-    color: #55f;    
+    color: #219ab3;
+    /* color: #55f;     */
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -98,7 +98,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #55f;
+    color: #fff;
 }
 
 .navbar-custom .nav li.active {
@@ -124,7 +124,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background: 0 rgba(128,128,128,0.5);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
