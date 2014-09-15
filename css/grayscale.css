@@ -18,11 +18,8 @@ html {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2
+ {
     margin: 0 0 35px;
     /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -32,6 +29,23 @@ h6 {
     letter-spacing: 1px;
 }
 
+h3
+{
+    text-align: left;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+h4,
+h5,
+h6
+{
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -39,11 +53,24 @@ p {
     text-align: justify;
 }
 
+ul {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+
+    ul {
+	/* margin: 0 0 25px; */
+	font-size: 20px;
+	line-height: 1.6;
     }
 }
 
